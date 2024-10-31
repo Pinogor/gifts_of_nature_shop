@@ -19,6 +19,6 @@
 
 <!-- Замените ссылки на скриншоты вашего проекта -->
 
-![Главная страница]![img.png](picture%2Fimg.png)
-![Карточка товара]![img_1.png](picture%2Fimg_1.png)
+![Главная страница]![main.png](picture%2Fmain.png)
+![Карточка товара]!![card.png](picture%2Fcard.png)
 
