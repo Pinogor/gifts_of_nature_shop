@@ -26,15 +26,7 @@ const OrderPage = () => {
   ]);
   const navigate = useNavigate();
 
-  const deliveryPrice = 800;
-
-  // useEffect(() => {
-  //   if (total > 7000) {
-  //     setDeliveryPrice(0);
-  //   } else {
-  //     setDeliveryPrice(800);
-  //   }
-  // }, [total]);
+  const deliveryPrice = 300;
 
   const grandTotal = total + deliveryPrice;
 
