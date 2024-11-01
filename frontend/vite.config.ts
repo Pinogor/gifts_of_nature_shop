@@ -13,7 +13,7 @@ export default () => {
       VitePWA({
         registerType: "autoUpdate",
         manifest: {
-          name: "Agro Zakup KZ",
+          name: "ДарыПрироды",
           short_name: "ДарыПрироды",
           description:
             "Заказывайте свежие и качественные продукты прямо от фермеров. Натуральные продукты питания с быстрой доставкой к вашей двери.",
