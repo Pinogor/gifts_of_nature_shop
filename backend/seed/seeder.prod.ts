@@ -30,8 +30,8 @@ async function createUser() {
   const user = await prisma.user.create({
     data: {
       uuid: uuidGen(),
-      email: 'email@gmail.com',
-      password: await hash('somePassword'),
+      email: '',
+      password: await hash(''),
       role: 'ADMIN',
       first_name: 'Имя',
       second_name: 'Фамилия',
@@ -46,12 +46,6 @@ async function createUser() {
 
 async function main() {
   await createUser();
-  // await prisma.orderItem.deleteMany();
-  // await prisma.product.deleteMany();
-  // await prisma.category.deleteMany();
-  // await prisma.order.deleteMany();
-  // await prisma.photoFile.deleteMany();
-  // await prisma.subcategory.deleteMany();
   console.log('Start seeding...');
 }
 
